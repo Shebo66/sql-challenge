@@ -1,4 +1,4 @@
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 -- Modify this code to update the DB schema diagram.
@@ -17,7 +17,7 @@ CREATE TABLE "Employee" (
     "emp_no" INT   NOT NULL,
     "dept_no" VARCHAR   NOT NULL,
     CONSTRAINT "pk_Employee" PRIMARY KEY (
-        "emp_no"
+        "emp_no","dept_no"
      )
 );
 
